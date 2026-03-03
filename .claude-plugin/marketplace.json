@@ -1,10 +1,14 @@
 {
-  "name": "SmartLink Basics Plugins",
+  "name": "smartlink-basics-plugins",
   "description": "Sales CRM plugins from SmartLink Basics — inspect what you expect.",
+  "owner": {
+    "name": "SmartLink Basics",
+    "url": "https://smartlinkbasics.com"
+  },
   "plugins": [
     {
       "name": "smartlink-basics",
-      "path": "smartlink-basics",
+      "source": "smartlink-basics",
       "description": "Sales CRM tools powered by the SmartLink Basics 6-KPI framework. Pipeline reviews, deal risk analysis, coaching prep, and forecast assessments.",
       "tags": ["sales", "crm", "pipeline", "coaching", "kpi"]
     }
