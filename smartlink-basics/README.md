@@ -28,6 +28,17 @@ Every command and skill is built around these metrics:
 5. **Stage Conversion** — Where deals die in the funnel
 6. **Forecast vs Actual** — Whether the team can predict their own performance
 
+## See It In Action
+
+### Pipeline Overview
+![Pipeline Overview](assets/pipeline-overview.png)
+
+### Deals at Risk
+![Deals at Risk](assets/deals-at-risk.png)
+
+### Pipeline Review Demo
+![Pipeline Review](assets/pipeline-review.gif)
+
 ## Skills
 
 The plugin includes two auto-triggered skills that Claude draws on whenever sales topics come up:
