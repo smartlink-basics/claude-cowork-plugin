@@ -1,4 +1,13 @@
-# /smartlink:coaching-prep
+---
+name: coaching-prep
+description: >
+  Prepare coaching talking points for a 1:1 meeting with a sales rep. Use when
+  the user says "prep for my 1:1", "coaching prep", "prepare for coaching",
+  "1:1 with [rep name]", "coaching talking points", "rep review", or asks for
+  data-backed coaching recommendations.
+---
+
+# Coaching Prep
 
 Prepare coaching talking points for a 1:1 meeting with a sales rep.
 

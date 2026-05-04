@@ -8,18 +8,20 @@ Connects Claude to your SmartLink Basics CRM and gives it the sales coaching met
 
 Built on the **"inspect what you expect"** framework: focus on the 6 metrics that actually drive decisions, and coach your team on what moves deals forward.
 
-## Commands
+## Skills
 
-| Command | What It Does |
-|---------|-------------|
-| `/smartlink:pipeline-review` | Pulls all 6 KPIs and generates a leadership-ready pipeline brief |
-| `/smartlink:deal-check` | Analyzes specific deals for risk — timeline, activity, velocity |
-| `/smartlink:coaching-prep` | Prepares 1:1 coaching talking points for a rep with data-backed recommendations |
-| `/smartlink:forecast` | Assesses forecast confidence with the math to back it up |
+| Skill | What It Does |
+|-------|-------------|
+| Pipeline Review | Pulls all 6 KPIs and generates a leadership-ready pipeline brief |
+| Deal Check | Analyzes specific deals for risk — timeline, activity, velocity |
+| Coaching Prep | Prepares 1:1 coaching talking points for a rep with data-backed recommendations |
+| Forecast | Assesses forecast confidence with the math to back it up |
+| Sales Coaching | The "inspect what you expect" methodology and coaching principles |
+| KPI Analysis | How to pull, contextualize, and present metrics with benchmarks |
 
 ## The 6 Core KPIs
 
-Every command and skill is built around these metrics:
+Every skill is built around these metrics:
 
 1. **Pipeline Value** — How much is in play and where it sits
 2. **Win Rate** — How efficiently you convert opportunities
@@ -39,13 +41,6 @@ Every command and skill is built around these metrics:
 ### Pipeline Review Demo
 ![Pipeline Review](assets/pipeline-review.gif)
 
-## Skills
-
-The plugin includes two auto-triggered skills that Claude draws on whenever sales topics come up:
-
-- **Sales Coaching** — The "inspect what you expect" methodology, coaching principles, and KPI interpretation framework
-- **KPI Analysis** — How to pull, contextualize, and present SmartLink Basics metrics with benchmarks and recommended actions
-
 ## Requirements
 
 - A SmartLink Basics CRM account (Growth or Pro tier)
@@ -53,46 +48,17 @@ The plugin includes two auto-triggered skills that Claude draws on whenever sale
 
 ## Setup
 
-### Option 1: Install from the Plugin Directory
-
-```
-/plugin install smartlink-basics@claude-plugins-official
-```
-
-### Option 2: Install from SmartLink Basics Marketplace
-
-```
-claude plugin marketplace add smartlink-basics/claude-cowork-plugin
-claude plugin install smartlink-basics@smartlink-basics
-```
-
-### Option 3: Install Locally
-
-Clone this repo and install from the local path:
-
-```
-git clone https://github.com/smartlink-basics/claude-cowork-plugin.git
-claude plugin install /path/to/claude-cowork-plugin/smartlink-basics
-```
-
-### Connect Your CRM
-
-The plugin connects to your SmartLink Basics CRM automatically via the included MCP server configuration. On first use, you'll authenticate with your SmartLink Basics account.
-
-You can also add the MCP server manually in Claude Desktop under Settings > Connectors:
-
-```
-https://imxxpgyszgltjhukgimg.supabase.co/functions/v1/mcp
-```
+Install the plugin and the included MCP server connects to your SmartLink Basics CRM automatically. On first use, you'll authenticate with your SmartLink Basics account.
 
 ## Quick Start
 
 Once installed, try:
 
 - "Show me my pipeline" — Claude pulls your deal data and breaks it down by stage
-- `/smartlink:pipeline-review` — Get a full 6-KPI leadership brief
+- "How's my pipeline?" — Get a full 6-KPI leadership brief
 - "Which deals are at risk?" — Surfaces overdue and stale deals
-- `/smartlink:coaching-prep` — Prep for a 1:1 with data-backed talking points
+- "Prep for my 1:1 with Sarah" — Data-backed coaching talking points
+- "Will we hit our number?" — Forecast confidence assessment
 
 ## About SmartLink Basics
 

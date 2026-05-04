@@ -1,4 +1,13 @@
-# /smartlink:forecast
+---
+name: forecast
+description: >
+  Generate a forecast confidence assessment for the current period. Use when the
+  user says "forecast", "how's my forecast", "will we hit our number",
+  "forecast confidence", "quarter assessment", "are we on track", or asks about
+  forecast accuracy or gap analysis.
+---
+
+# Forecast
 
 Generate a forecast confidence assessment for the current period.
 

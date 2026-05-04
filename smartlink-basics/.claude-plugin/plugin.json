@@ -8,5 +8,6 @@
   },
   "homepage": "https://smartlinkbasics.com",
   "repository": "https://github.com/smartlink-basics/claude-cowork-plugin",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": ["sales", "crm", "pipeline", "coaching", "kpi", "forecast"]
 }

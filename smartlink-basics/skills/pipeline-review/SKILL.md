@@ -1,4 +1,13 @@
-# /smartlink:pipeline-review
+---
+name: pipeline-review
+description: >
+  Generate a pipeline review brief for a sales leadership meeting. Use when the
+  user says "pipeline review", "how's my pipeline", "Monday pipeline meeting",
+  "show me the pipeline", "pipeline health", "weekly review", or asks for a
+  leadership-ready sales brief.
+---
+
+# Pipeline Review
 
 Generate a pipeline review brief for a sales leadership meeting.
 

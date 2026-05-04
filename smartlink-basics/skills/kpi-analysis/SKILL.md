@@ -1,12 +1,22 @@
+---
+name: kpi-analysis
+description: >
+  Interpret SmartLink Basics CRM data through the 6-KPI framework with
+  benchmarks and actionable recommendations. Use when the user asks about
+  "KPIs", "metrics", "win rate", "deal velocity", "activity rate", "stage
+  conversion", "pipeline value", "dashboard", "how are we doing", "sales
+  numbers", or any request to analyze CRM performance data.
+---
+
 # KPI Analysis — SmartLink Basics Framework
 
-You have access to the SmartLink Basics CRM through MCP tools. When users ask
-about their sales data, use the appropriate tools to fetch real data and
-interpret it through this framework.
+Access the SmartLink Basics CRM through MCP tools. When users ask about their
+sales data, use the appropriate tools to fetch real data and interpret it
+through this framework.
 
 ## Available CRM Tools
 
-- `whoami` — Your account info, organization, and available pipelines
+- `whoami` — Account info, organization, and available pipelines
 - `get_pipeline_value` — Pipeline value by stage
 - `get_win_rate` — Win rate with counts
 - `get_deal_velocity` — Average days to close

@@ -1,4 +1,13 @@
-# /smartlink:deal-check
+---
+name: deal-check
+description: >
+  Analyze specific deals for risk and coaching opportunities. Use when the user
+  says "check this deal", "deal health", "deal risk", "analyze my deals",
+  "which deals are at risk", "deals need attention", or asks about a specific
+  deal by name.
+---
+
+# Deal Check
 
 Analyze specific deals for risk and coaching opportunities.
 

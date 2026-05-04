@@ -2,7 +2,7 @@
   "mcpServers": {
     "smartlink-basics-crm": {
       "type": "http",
-      "url": "https://imxxpgyszgltjhukgimg.supabase.co/functions/v1/mcp"
+      "url": "https://mcp.smartlinkbasics.com"
     }
   }
 }
