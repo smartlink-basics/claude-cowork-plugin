@@ -1,13 +1,13 @@
 {
   "name": "smartlink-basics",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Sales CRM tools powered by the SmartLink Basics 6-KPI framework. Pipeline reviews, deal risk analysis, coaching prep, and forecast assessments — built by a sales leader, not a vendor.",
   "author": {
     "name": "SmartLink Basics",
     "url": "https://smartlinkbasics.com"
   },
   "homepage": "https://smartlinkbasics.com",
-  "repository": "https://github.com/smartlink-basics/claude-cowork-plugin",
+  "repository": "https://github.com/alsermeno/claude-cowork-plugin",
   "license": "MIT",
   "keywords": ["sales", "crm", "pipeline", "coaching", "kpi", "forecast"]
 }

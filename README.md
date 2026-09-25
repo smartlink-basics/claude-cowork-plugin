@@ -13,7 +13,7 @@ Official Claude Cowork and Claude Code plugins from [SmartLink Basics](https://s
 Add this marketplace to Claude:
 
 ```
-claude plugin marketplace add smartlink-basics/claude-cowork-plugin
+claude plugin marketplace add alsermeno/claude-cowork-plugin
 ```
 
 Then install:
